@@ -9,7 +9,6 @@ pdf.set_auto_page_break(auto=False, margin=0)
 df = pd.read_csv("topics.csv")
 
 for idx, row in df.iterrows():
-
     # Set the header
     pdf.add_page()
     pdf.set_font(family="Times", style="B", size=24)
